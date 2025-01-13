@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libsrc.a CMakeFiles/src.dir/fsm.cpp.obj CMakeFiles/src.dir/factory.cpp.obj CMakeFiles/src.dir/FestoProcessAccess.cpp.obj CMakeFiles/src.dir/minilab1008processimage.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libsrc.a

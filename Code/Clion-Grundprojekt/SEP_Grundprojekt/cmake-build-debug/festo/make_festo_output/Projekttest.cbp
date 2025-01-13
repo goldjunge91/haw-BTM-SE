@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Projekttest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\festo\;CMake Files\festo\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Projekttest">
+				<Option output="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Projekttest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/lib"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 Projekttest"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Projekttest/fast">
+				<Option output="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Projekttest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/lib"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 Projekttest/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/lib"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/lib"/>
+					<Add directory="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/main.cpp">
+			<Option target="Projekttest"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/FestoProcessAccess.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/FestoProcessAccess.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/FestoProcessActuators.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/FestoProcessSensors.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/factory.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/factory.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/fsm.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/fsm.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/iomasks.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/minilab1008processimage.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/minilab1008processimage.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/plugin.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/processimage.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simulationcore"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\festo\;CMake Files\festo\festo-source\;CMake Files\festo\simulationadapterbmt\;CMake Files\festo\simulationcore\;CMake Files\festo\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulationcore">
+				<Option output="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/libsimulationcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHOME"/>
+					<Add option="-DSIMULATION"/>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/lib"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/festo-source"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 simulationcore"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulationcore/fast">
+				<Option output="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/libsimulationcore.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHOME"/>
+					<Add option="-DSIMULATION"/>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/lib"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/festo-source"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 simulationcore/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/make_festo_output/simulationcore/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isimdrophandler.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isiminitcompleteobserver.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isimseparator.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isimulationcycleendhandler.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isimulationexecution.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isimulationimage.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/isimulationreporthandler.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simconveyorbelt.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simconveyorbelt.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simctrlaction.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simctrlaction.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simctrlhandler.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simctrlhandler.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simdrive.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simdrive.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simexecuter.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simexecuter.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simfeedpusher.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simfeedpusher.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simfeedseparator.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simfeedseparator.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simhci.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simhci.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simhciaction.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simhciaction.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simheightsensor.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simheightsensor.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simioimage.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitem.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitem.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitemhandling.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitemhandling.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitemhandlingaction.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitemhandlingaction.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitemmanager.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simitemmanager.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simjsonbase.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simjsonbase.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simjsonmessagehandler.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simjsonmessagehandler.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlbi.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlbi.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlbiaction.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlbiaction.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlightbarrier.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlightbarrier.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlogger.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simlogger.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simmagneticsensor.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simmagneticsensor.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simmasks.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simsensors.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simsensors.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simshowstates.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simshowstates.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simslide.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simslide.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simulation.cpp">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simulation.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/simulationimageaccesdummy.h">
+			<Option target="simulationcore"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/festo-source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\festo-source\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\simulationadapterbmt\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\simulationcore\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

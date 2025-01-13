@@ -1,0 +1,8 @@
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/CMakeFiles/Projekttest.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/CMakeFiles/edit_cache.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/CMakeFiles/rebuild_cache.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/CMakeFiles/src.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/CMakeFiles/edit_cache.dir
+C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug/festo/make_festo_output/src/CMakeFiles/rebuild_cache.dir

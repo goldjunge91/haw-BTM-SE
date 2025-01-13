@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../festo/src/FestoProcessAccess.h
+cstdio
+-
+FestoProcessSensors.h
+../festo/src/FestoProcessSensors.h
+FestoProcessActuators.h
+../festo/src/FestoProcessActuators.h
+processimage.h
+../festo/src/processimage.h
+
+../festo/src/FestoProcessActuators.h
+
+../festo/src/FestoProcessSensors.h
+time.h
+../festo/src/time.h
+
+../festo/src/factory.h
+fsm.h
+../festo/src/fsm.h
+
+../festo/src/fsm.h
+FestoProcessAccess.h
+../festo/src/FestoProcessAccess.h
+plugin.h
+../festo/src/plugin.h
+
+../festo/src/plugin.h
+
+../festo/src/processimage.h
+
+C:/Users/Chrs/CLionProjects/SEP_03/festo/main.cpp
+cstdlib
+-
+cstdio
+-
+factory.h
+C:/Users/Chrs/CLionProjects/SEP_03/festo/factory.h
+

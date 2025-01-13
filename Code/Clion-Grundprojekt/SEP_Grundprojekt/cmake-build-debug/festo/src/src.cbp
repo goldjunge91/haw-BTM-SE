@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\festo\;CMake Files\festo\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src">
+				<Option output="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHOME"/>
+					<Add option="-DSIMULATION"/>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/lib"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 src"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="src/fast">
+				<Option output="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/libsrc.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHOME"/>
+					<Add option="-DSIMULATION"/>
+					<Add option="-DSIM_SHOW_TIMESTAMP"/>
+					<Add option="-DLONGRUN"/>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/lib"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 src/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/cmake-build-debug/festo/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/FestoProcessAccess.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/FestoProcessAccess.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/FestoProcessActuators.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/FestoProcessSensors.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/factory.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/factory.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/fsm.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/fsm.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/iomasks.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/minilab1008processimage.cpp">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/minilab1008processimage.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/plugin.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/processimage.h">
+			<Option target="src"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

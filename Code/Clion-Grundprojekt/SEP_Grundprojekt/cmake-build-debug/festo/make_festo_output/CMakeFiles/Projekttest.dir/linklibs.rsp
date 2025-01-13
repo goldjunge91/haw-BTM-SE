@@ -1,0 +1,1 @@
+ src/libsrc.a "C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/festo/lib/cbw64.lib" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

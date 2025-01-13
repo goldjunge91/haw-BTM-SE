@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>460</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+FestoProcessSensors</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>510</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=()-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>870</x>
+      <y>460</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+FestoProcessActuators</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>620</x>
+      <y>550</y>
+      <w>200</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;block&gt;&gt;
+FestoMiniLab1008ProcessImage</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>460</y>
+      <w>170</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+FestoProcessImage</panel_attributes>
+    <additional_attributes>20.0;40.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>470</x>
+      <y>400</y>
+      <w>700</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;block&gt;&gt;
+logik
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>460</y>
+      <w>80</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=)-
+Plugin</panel_attributes>
+    <additional_attributes>20.0;40.0;20.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>480</x>
+      <y>550</y>
+      <w>110</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;block&gt;&gt;
+DefectDetector</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>510</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=()-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+</diagram>

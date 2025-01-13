@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="simulationadapterbmt"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\festo-source\;CMake Files\simulationadapterbmt\;CMake Files\simulationcore\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulationadapterbmt">
+				<Option output="C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/libsimulationadapterbmt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/lib"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/festo-source"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 simulationadapterbmt"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simulationadapterbmt/fast">
+				<Option output="C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/libsimulationadapterbmt.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DWIN_SYS"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/lib"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/festo-source"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore"/>
+					<Add directory="C:/Users/Chrs/CLionProjects/Projekttest/festo/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include/c++/11.2.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 simulationadapterbmt/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Chrs/CLionProjects/Projekttest/festo/cmake-build-debug/simulationadapterbmt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/isimadapter.h">
+			<Option target="simulationadapterbmt"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/simadapter.cpp">
+			<Option target="simulationadapterbmt"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/simadapter.h">
+			<Option target="simulationadapterbmt"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/simadapter_longrun.cpp">
+			<Option target="simulationadapterbmt"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/simadapter_longrun.h">
+			<Option target="simulationadapterbmt"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/simbase.h">
+			<Option target="simulationadapterbmt"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/festo-source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\festo-source\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationadapterbmt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simulationadapterbmt\"/>
+		</Unit>
+		<Unit filename="C:/Users/Chrs/CLionProjects/Projekttest/festo/simulationcore/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simulationcore\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
