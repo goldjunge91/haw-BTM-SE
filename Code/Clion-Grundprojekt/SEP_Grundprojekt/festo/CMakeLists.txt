@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+ cmake_minimum_required(VERSION 3.17)
 project(Projekttest)
 
 set(CMAKE_CXX_STANDARD 14)
@@ -7,10 +7,8 @@ set(CMAKE_CXX_STANDARD 14)
 #add_definitions(-DHOME -DSIMULATION) #Schaltet die Simulation an
 add_definitions(-DSIM_SHOW_TIMESTAMP) #Gibt die in der Simulation vergangene Zeit aus
 add_definitions(-DLONGRUN) #Führt den langen, ausführlichen Test aus.
-
 ## In der folgenden Zeile alle .cpp- und .h-Dateien aus diesem Verzeichnis ergänzen.
 add_executable(Projekttest main.cpp)
-
 
 ## Die folgenden Zeilen nicht ändern
 find_library(CBW_LIB cbw64 ./lib)
@@ -35,4 +33,3 @@ ELSE()
     target_link_libraries(Projekttest)
 
 ENDIF()
-

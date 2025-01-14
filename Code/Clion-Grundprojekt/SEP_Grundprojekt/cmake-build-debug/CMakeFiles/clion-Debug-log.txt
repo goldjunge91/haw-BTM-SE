@@ -1,13 +1,8 @@
-"C:\Program Files\JetBrains\CLion 2022.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\Chrs\Dropbox\Arbeit\HAW\Lehre\2024SS\ITS SEP\Aufgaben\A4\SEP_03\SEP_03" -B "C:\Users\Chrs\Dropbox\Arbeit\HAW\Lehre\2024SS\ITS SEP\Aufgaben\A4\SEP_03\SEP_03\cmake-build-debug"
-CMake Deprecation Warning:
-  Support for "Extra Generators" like
-
-    CodeBlocks
-
-  is deprecated and will be removed from a future version of CMake.  IDEs may
-  use the cmake-file-api(7) to view CMake-generated project build trees.
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/marco/Github.tmp/haw-BTM-SE/Code/Clion-Grundprojekt/SEP_Grundprojekt -B /Users/marco/Github.tmp/haw-BTM-SE/Code/Clion-Grundprojekt/SEP_Grundprojekt/cmake-build-debug
+CMake Warning at festo/CMakeLists.txt:31 (message):
+  Compiling not on Windows.  You can only use the Simulation here!
 
 
--- Configuring done (0.2s)
--- Generating done (0.2s)
--- Build files have been written to: C:/Users/Chrs/Dropbox/Arbeit/HAW/Lehre/2024SS/ITS SEP/Aufgaben/A4/SEP_03/SEP_03/cmake-build-debug
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/marco/Github.tmp/haw-BTM-SE/Code/Clion-Grundprojekt/SEP_Grundprojekt/cmake-build-debug

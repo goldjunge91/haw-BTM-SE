@@ -10,8 +10,11 @@ set(SOURCE_FILES
         iomasks.h
         plugin.h
         processimage.h
+        plugin/defectDetector.h
+        plugin/defectDetector.cpp
 
-## Hier neue Dateien hinzufügen
+
+        ## Hier neue Dateien hinzufügen
 )
 
 add_library(src STATIC ${SOURCE_FILES})

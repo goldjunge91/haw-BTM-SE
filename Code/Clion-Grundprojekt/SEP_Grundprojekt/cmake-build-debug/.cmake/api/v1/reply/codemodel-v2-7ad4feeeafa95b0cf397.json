@@ -1,0 +1,299 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "festo/test",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-festo.test-Debug-24d5c1600757012eb1ec.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "festo/test",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "festo/test/lib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-festo.test.lib-Debug-37797a3fd0a5f6bdd501.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "festo/test/lib"
+				},
+				{
+					"build" : "festo/test/lib/googlemock",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-festo.test.lib.googlemock-Debug-6bf672ec98f7fffe4a60.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "festo/test/lib/googlemock",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "festo/test/lib/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-festo.test.lib.googletest-Debug-97cf6a0da80140cdf63f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "festo/test/lib/googletest",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "festo/make_festo_output",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-festo.make_festo_output-Debug-1d17352d7847901a1929.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "festo",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "festo/make_festo_output/src",
+					"jsonFile" : "directory-festo.make_festo_output.src-Debug-66e8761cdf606db84e8b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 6,
+					"source" : "festo/src",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SEP_MT"
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "test",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 1
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gmock",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						6
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "Projekttest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "src",
+					"parentIndex" : 5,
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Google_Tests_run::@d642edc5144afc63aabd",
+					"jsonFile" : "target-Google_Tests_run-Debug-d1501369788a8f48580a.json",
+					"name" : "Google_Tests_run",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "Projekttest::@09d279c6dfd3a65e6811",
+					"jsonFile" : "target-Projekttest-Debug-10766433ffdfeb5dfbd9.json",
+					"name" : "Projekttest",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock::@0fd61875ca4d8264cdd1",
+					"jsonFile" : "target-gmock-Debug-37a8eff14891860bf5a0.json",
+					"name" : "gmock",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main::@0fd61875ca4d8264cdd1",
+					"jsonFile" : "target-gmock_main-Debug-21849a15de835a46df14.json",
+					"name" : "gmock_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@1a68f7cdc7ace839ee5a",
+					"jsonFile" : "target-gtest-Debug-f0a4eb9133a934f09504.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@1a68f7cdc7ace839ee5a",
+					"jsonFile" : "target-gtest_main-Debug-3d840fe1f22509d05744.json",
+					"name" : "gtest_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "src::@0dc8099681dfcee4bd33",
+					"jsonFile" : "target-src-Debug-33dbc2a1b8143679c929.json",
+					"name" : "src",
+					"projectIndex" : 6
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/marco/Github.tmp/haw-BTM-SE/Code/Clion-Grundprojekt/SEP_Grundprojekt/cmake-build-debug",
+		"source" : "/Users/marco/Github.tmp/haw-BTM-SE/Code/Clion-Grundprojekt/SEP_Grundprojekt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

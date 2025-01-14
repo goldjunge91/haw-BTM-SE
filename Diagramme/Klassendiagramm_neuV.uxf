@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1">
-  <zoom_level>10</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>790</x>
-      <y>1860</y>
-      <w>190</w>
-      <h>430</h>
+      <x>553</x>
+      <y>1302</y>
+      <w>133</w>
+      <h>301</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 FestoProcessActuators
@@ -40,10 +40,10 @@ FestoProcessActuators
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
-      <y>270</y>
-      <w>210</w>
-      <h>120</h>
+      <x>434</x>
+      <y>189</y>
+      <w>147</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>&lt;&lt;class&gt;&gt;
 FSMFactory
@@ -59,10 +59,10 @@ FSMFactory
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>430</y>
-      <w>380</w>
-      <h>220</h>
+      <x>392</x>
+      <y>301</y>
+      <w>266</w>
+      <h>161</h>
     </coordinates>
     <panel_attributes>&lt;&lt;class&gt;&gt;
 FSM
@@ -85,10 +85,10 @@ FSM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>410</x>
-      <y>1860</y>
-      <w>360</w>
-      <h>330</h>
+      <x>287</x>
+      <y>1302</y>
+      <w>252</w>
+      <h>231</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;
 FestoProcessSensors
@@ -114,10 +114,10 @@ FestoProcessSensors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>990</x>
-      <y>1860</y>
-      <w>410</w>
-      <h>220</h>
+      <x>693</x>
+      <y>1302</y>
+      <w>287</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;           
 FestoProcessImage
@@ -136,10 +136,10 @@ FestoProcessImage
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1060</x>
-      <y>540</y>
-      <w>160</w>
-      <h>100</h>
+      <x>742</x>
+      <y>378</y>
+      <w>112</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>&lt;&lt;interface&gt;&gt;        
 Plugin  
@@ -151,10 +151,10 @@ Plugin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>980</x>
-      <y>700</y>
-      <w>430</w>
-      <h>330</h>
+      <x>686</x>
+      <y>490</y>
+      <w>301</w>
+      <h>231</h>
     </coordinates>
     <panel_attributes>&lt;&lt;class&gt;&gt;
 FestoMiniLab1008ProcessImage  
@@ -183,9 +183,9 @@ FestoMiniLab1008ProcessImage
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-      <y>230</y>
-      <w>250</w>
-      <h>100</h>
+      <y>161</y>
+      <w>175</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=.
 Provider = Anbieter
@@ -196,10 +196,10 @@ Consumer = Nutzer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>310</x>
-      <y>10</y>
-      <w>110</w>
-      <h>40</h>
+      <x>217</x>
+      <y>7</y>
+      <w>77</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=.
 Anbieter
@@ -209,10 +209,10 @@ Provider</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>460</x>
+      <x>322</x>
       <y>0</y>
-      <w>110</w>
-      <h>40</h>
+      <w>77</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=.
 Nutzer
@@ -222,10 +222,10 @@ Consumer</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>380</x>
-      <y>100</y>
-      <w>110</w>
-      <h>40</h>
+      <x>266</x>
+      <y>70</y>
+      <w>77</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=.
 Interface</panel_attributes>
@@ -234,10 +234,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
-      <y>40</y>
-      <w>70</w>
-      <h>80</h>
+      <x>252</x>
+      <y>28</y>
+      <w>49</w>
+      <h>56</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>50.0;60.0;10.0;10.0</additional_attributes>
@@ -245,10 +245,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>440</x>
-      <y>30</y>
-      <w>60</w>
-      <h>90</h>
+      <x>308</x>
+      <y>21</y>
+      <w>42</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>10.0;70.0;40.0;10.0</additional_attributes>
@@ -256,10 +256,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>900</x>
-      <y>1700</y>
-      <w>30</w>
-      <h>180</h>
+      <x>630</x>
+      <y>1190</y>
+      <w>21</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
@@ -267,10 +267,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>660</x>
-      <y>1700</y>
-      <w>30</w>
-      <h>180</h>
+      <x>462</x>
+      <y>1190</y>
+      <w>21</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=.&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
@@ -278,21 +278,21 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>750</x>
-      <y>640</y>
-      <w>30</w>
-      <h>80</h>
+      <x>525</x>
+      <y>455</y>
+      <w>21</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1260</x>
-      <y>1020</y>
-      <w>30</w>
-      <h>860</h>
+      <x>882</x>
+      <y>714</y>
+      <w>21</w>
+      <h>602</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;840.0;10.0;10.0</additional_attributes>
@@ -300,10 +300,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>380</y>
-      <w>30</w>
-      <h>70</h>
+      <x>497</x>
+      <y>266</y>
+      <w>21</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -311,10 +311,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>920</x>
-      <y>590</y>
-      <w>160</w>
-      <h>30</h>
+      <x>644</x>
+      <y>413</y>
+      <w>112</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -322,10 +322,10 @@ Interface</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
-      <y>1600</y>
-      <w>160</w>
-      <h>280</h>
+      <x>665</x>
+      <y>1120</y>
+      <w>112</w>
+      <h>196</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;140.0;10.0;140.0;260.0</additional_attributes>
@@ -333,10 +333,10 @@ Interface</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>580</x>
-      <y>700</y>
-      <w>380</w>
-      <h>1010</h>
+      <x>406</x>
+      <y>490</y>
+      <w>266</w>
+      <h>707</h>
     </coordinates>
     <panel_attributes>&lt;&lt;class&gt;&gt;
 FestoProcessAccess
@@ -345,72 +345,71 @@ FestoProcessAccess
 - FILE* logFile;
 - time_t timeCounter;
 --
-   + virtual bool isItemAtBeginning(void) = 0;
-   + virtual bool isItemAtHightSensor(void) = 0;
-   + virtual bool isItemAtMetalDetector(void) = 0;
-   + virtual bool isMetalDetected(void) = 0;
-   + virtual bool isJunctionOpen(void) = 0;
-   + virtual bool isItemAtSlide(void) = 0;
-   + virtual bool hasItemPassedSlide(void) = 0;
-   + virtual bool isItemAtEnd(void) = 0;
-   + virtual bool isButtonStartPressed(void) = 0;
-   + virtual bool isButtonStartPositiveEdge(void) = 0;
-   + virtual bool isButtonStartNegativeEdge(void) = 0;
-   + virtual bool isButtonStopPressed(void) = 0;
-   + virtual bool isButtonResetPressed(void) = 0;
-   + virtual bool isButtonEmergencyActive(void) = 0;
-   + virtual unsigned short getHight() = 0;
-   + virtual time_t timeCounter1s() = 0;
++ virtual bool isItemAtBeginning(void) = 0;
++ virtual bool isItemAtHightSensor(void) = 0;
++ virtual bool isItemAtMetalDetector(void) = 0;
++ virtual bool isMetalDetected(void) = 0;
++ virtual bool isJunctionOpen(void) = 0;
++ virtual bool isItemAtSlide(void) = 0;
++ virtual bool hasItemPassedSlide(void) = 0;
++ virtual bool isItemAtEnd(void) = 0;
++ virtual bool isButtonStartPressed(void) = 0;
++ virtual bool isButtonStartPositiveEdge(void) = 0;
++ virtual bool isButtonStartNegativeEdge(void) = 0;
++ virtual bool isButtonStopPressed(void) = 0;
++ virtual bool isButtonResetPressed(void) = 0;
++ virtual bool isButtonEmergencyActive(void) = 0;
++ virtual unsigned short getHight() = 0;
++ virtual time_t timeCounter1s() = 0;
 --
-    virtual void driveRight(void);
-    virtual void driveLeft(void);
-    virtual void driveSlowRight(void);
-    virtual void driveSlowLeft(void);
-    virtual void driveStop(void);
-    virtual void openJunction(void);
-    virtual void closeJunction(void);
-    virtual void lightGreenOn(void);
-    virtual void lightGreenOff(void);
-    virtual void lightYellowOn(void);
-    virtual void lightYellowOff(void);
-    virtual void lightRedOn(void);
-    virtual void lightRedOff(void);
-    virtual void turnLEDStartOn(void);
-    virtual void turnLEDStartOff(void);
-    virtual void turnLEDResetOn(void);
-    virtual void turnLEDResetOff(void);
-    virtual void turnLEDQ1On(void);
-    virtual void turnLEDQ1Off(void);
-    virtual void turnLEDQ2On(void);
-    virtual void turnLEDQ2Off(void);
-    virtual void turnAllOff(void);
++ virtual void driveRight(void);
++ virtual void driveLeft(void);
++ virtual void driveSlowRight(void);
++ virtual void driveSlowLeft(void);
++ virtual void driveStop(void);
++ virtual void openJunction(void);
++ virtual void closeJunction(void);
++ virtual void lightGreenOn(void);
++ virtual void lightGreenOff(void);
++ virtual void lightYellowOn(void);
++ virtual void lightYellowOff(void);
++ virtual void lightRedOn(void);
++ virtual void lightRedOff(void);
++ virtual void turnLEDStartOn(void);
++ virtual void turnLEDStartOff(void);
++ virtual void turnLEDResetOn(void);
++ virtual void turnLEDResetOff(void);
++ virtual void turnLEDQ1On(void);
++ virtual void turnLEDQ1Off(void);
++ virtual void turnLEDQ2On(void);
++ virtual void turnLEDQ2Off(void);
++ virtual void turnAllOff(void);
 
-    virtual bool isItemAtBeginning(void);
-    virtual bool isItemAtHightSensor(void);
-    virtual bool isItemAtMetalDetector(void);
-    virtual bool isMetalDetected(void);
-    virtual bool isJunctionOpen(void);
-    virtual bool isItemAtSlide(void);
-    virtual bool hasItemPassedSlide(void);
-    virtual bool isItemAtEnd(void);
-    virtual bool isButtonStartPressed(void);
-    virtual bool isButtonStartPositiveEdge(void);
-    virtual bool isButtonStartNegativeEdge(void);
-    virtual bool isButtonStopPressed(void);
-    virtual bool isButtonResetPressed(void);
-    virtual bool isButtonEmergencyActive(void);
-    virtual unsigned short getHight();
-
-    virtual time_t timeCounter1s();</panel_attributes>
++ virtual bool isItemAtBeginning(void);
++ virtual bool isItemAtHightSensor(void);
++ virtual bool isItemAtMetalDetector(void);
++ virtual bool isMetalDetected(void);
++ virtual bool isJunctionOpen(void);
++ virtual bool isItemAtSlide(void);
++ virtual bool hasItemPassedSlide(void);
++ virtual bool isItemAtEnd(void);
++ virtual bool isButtonStartPressed(void);
++ virtual bool isButtonStartPositiveEdge(void);
++ virtual bool isButtonStartNegativeEdge(void);
++ virtual bool isButtonStopPressed(void);
++ virtual bool isButtonResetPressed(void);
++ virtual bool isButtonEmergencyActive(void);
++ virtual unsigned short getHight();
++ virtual time_t timeCounter1s();</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1280</x>
-      <y>460</y>
-      <w>410</w>
-      <h>220</h>
+      <x>896</x>
+      <y>322</y>
+      <w>287</w>
+      <h>154</h>
     </coordinates>
     <panel_attributes>&lt;&lt;class&gt;&gt;
 DefectDetector
@@ -431,10 +430,10 @@ metalDetected: bool) : DefectType
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1680</x>
-      <y>550</y>
-      <w>30</w>
-      <h>30</h>
+      <x>1176</x>
+      <y>385</y>
+      <w>21</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;10.0</additional_attributes>
@@ -442,10 +441,10 @@ metalDetected: bool) : DefectType
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>40</x>
-      <y>450</y>
-      <w>140</w>
-      <h>70</h>
+      <x>28</x>
+      <y>315</y>
+      <w>98</w>
+      <h>49</h>
     </coordinates>
     <panel_attributes>Note.
 pfeile zu processacces
@@ -455,10 +454,10 @@ Wert</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1210</x>
-      <y>590</y>
-      <w>90</w>
-      <h>30</h>
+      <x>847</x>
+      <y>413</y>
+      <w>63</w>
+      <h>21</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;70.0;10.0</additional_attributes>
